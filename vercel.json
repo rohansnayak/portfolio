@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+      {
+        "source": "/portfolio/:path*",
+        "destination": "/:path*"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/portfolio",
+        "destination": "/portfolio/",
+        "permanent": true
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": true,
+    "static": {
+      "directory": "dist",
+      "publicPath": "/portfolio"
+    }
+}

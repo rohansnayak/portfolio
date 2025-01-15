@@ -13,9 +13,5 @@
       }
     ],
     "cleanUrls": true,
-    "trailingSlash": true,
-    "static": {
-      "directory": "dist",
-      "publicPath": "/portfolio"
-    }
-}
+    "trailingSlash": true
+  }

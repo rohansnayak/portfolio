@@ -13,7 +13,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -32,7 +31,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -42,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cloud Computing",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning",
     icon: creator,
   },
 ];
@@ -105,10 +108,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -116,55 +115,48 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineering Intern",
+    company_name: "Wayfair",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#83609e",
+    date: "June 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered, tested, and launched a global API for package tracking to improve consumer and customer relationship satisfaction by 77% through real-time data access and streamlined endpoint creation. (Python, SQL, Rest APIs).",
+      "Optimized a fleet insight server using Java and JavaScript, achieving a 63% decrease in operational delay backend for purchase order last mile tracking and making it 2.7 times faster. (Java, SQL, Google Cloud)",
+      "Applied natural language processing for package delivery and parcel conglomeration statistics to automate customer support by determining package defect scam probability up to 86% confidence. (Python, TensorFlow, Docker)",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Engineering Intern",
+    company_name: "Lockheed Martin",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#0f198a",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed, documented, and launched a 55% more efficient metric tracking solution to ensure accuracy for satellite data using Typescript and Java addressing 33% of user feedback. (Java, JavaScript, SQL, Google Cloud, Git).",
+      "Spearheaded the creation of an image classification model for synthetic aperture radar satellite data. Led team to a 98% accuracy by introducing convolutional back projection in object-oriented programming backend display dashboard. (Python, Keras, PyTest, NodeJS, AWS S3)",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Engineer",
+    company_name: "Longhorn Racing",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#a6771f",
+    date: "August 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created an 85% faster high-performance back end for a telemetry dashboard infrastructure improvement using HTML, CSS, JavaScript, and React for auto sports leveraging speed and time for vehicle OS updating. (Linux, Docker, AWS).",
+      "Gathered data from telemetry sensors, generated real-time data visualization in the front end, and presented through machine-to-machine protocol at 1Mbps for Formula SAE competitions. (C++, QuestDB, Telegraph, MQTT, Grafana).",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "SEES Software Engineer Intern",
+    company_name: "NASA",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#9c2a05",
+    date: "May 2022 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved a concept for an extraterrestrial lunar lander which can travel up to 3 times as efficiently, by working with NASA engineers, Machine Learning, and a proprietary algorithm. (C, Java, Python, TensorFlow, MATLAB).",
+      "Developed a 35% more accurate data-acquisition technique testing C++ to communicate with a solar array and battery system to create and display data in a dashboard from scratch for engineer examination. (Git, PuTTY, Azure).",
     ],
   },
 ];
@@ -172,93 +164,78 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Do not go where the path may lead; go instead where there is no path and leave a trail.",
+    name: "Ralph Waldo Emerson",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Life has no limitations, except the ones you make.",
+    name: "Les Brown",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "You don't have to be great to start, but you have to start to be great.",
+    name: "Zig Zigler",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Inventory Management Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed and implemented a full-stack inventory management system with Go APIs, React, and MongoDB, enabling real-time updates, predictive analytics, and dynamic data visualizations on a dashboard with use for drop shipping. Integrated an AI-powered recommendation system using TensorFlow to analyze order patterns and send alerts when similar products are restocked or new releases become available and listen to feedback and edit recommendations.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "go",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Equity Trading Testing Bot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a bot to use the ICT trading strategy of fair-value gaps through historic markets of the New York session to verify entries and exits targeting liquidity. Used Python, SQL, Yahoo Finance API. Developed and deployed on a website created with React, JavaScript, HTML, CSS. Implemented robust data storage solutions by leveraging MongoDB to capture.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SQL",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Similarity Mapping of the Milky Way",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Received 1st Place for the UNT AI Research stipend by optimizing a model to apply style transfer of H-alpha (Hα) gas and corresponding flux intensity surrounding blackholes up to 35% more efficiently to determine behavioral similarities in the Milky Way.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TensorFlow",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:cd91b2e8-1b42-4049-b337-72a854704a1b",
   },
 ];
 

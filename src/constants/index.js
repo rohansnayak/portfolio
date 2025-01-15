@@ -34,6 +34,10 @@ export const navLinks = [
     title: "Experience",
   },
   {
+    id: "languages",
+    title: "Languages",
+  },
+  {
     id: "projects",
     title: "Projects",
   },
@@ -118,7 +122,7 @@ const experiences = [
     title: "Software Engineering Intern",
     company_name: "Wayfair",
     icon: starbucks,
-    iconBg: "#83609e",
+    iconBg: "#7c189f",
     date: "June 2024 - August 2024",
     points: [
       "Engineered, tested, and launched a global API for package tracking to improve consumer and customer relationship satisfaction by 77% through real-time data access and streamlined endpoint creation. (Python, SQL, Rest APIs).",
@@ -130,7 +134,7 @@ const experiences = [
     title: "Software Engineering Intern",
     company_name: "Lockheed Martin",
     icon: tesla,
-    iconBg: "#0f198a",
+    iconBg: "#003478",
     date: "May 2023 - August 2023",
     points: [
       "Designed, documented, and launched a 55% more efficient metric tracking solution to ensure accuracy for satellite data using Typescript and Java addressing 33% of user feedback. (Java, JavaScript, SQL, Google Cloud, Git).",
@@ -141,7 +145,7 @@ const experiences = [
     title: "Software Engineer",
     company_name: "Longhorn Racing",
     icon: shopify,
-    iconBg: "#a6771f",
+    iconBg: "#333f49",
     date: "August 2022 - May 2023",
     points: [
       "Created an 85% faster high-performance back end for a telemetry dashboard infrastructure improvement using HTML, CSS, JavaScript, and React for auto sports leveraging speed and time for vehicle OS updating. (Linux, Docker, AWS).",
@@ -152,7 +156,7 @@ const experiences = [
     title: "SEES Software Engineer Intern",
     company_name: "NASA",
     icon: meta,
-    iconBg: "#9c2a05",
+    iconBg: "#ffff",
     date: "May 2022 - August 2022",
     points: [
       "Improved a concept for an extraterrestrial lunar lander which can travel up to 3 times as efficiently, by working with NASA engineers, Machine Learning, and a proprietary algorithm. (C, Java, Python, TensorFlow, MATLAB).",
